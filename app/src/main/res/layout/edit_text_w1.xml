@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Assignment #2: Add EditText view and follow the steps in the document -->
+<?xml version="1.0" encoding="utf-8"?><!-- Assignment #2: Add EditText view and follow the steps in the document -->
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="@color/colorMyYellow"
+    android:hint="@string/email_edit_hint"
+    android:inputType="textEmailAddress"
+    android:padding="16dp"
+    android:textColorHint="@color/colorMyRed" />
